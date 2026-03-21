@@ -1,12 +1,32 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>Pi Verified Ads Market</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pi Verified Ads Market | Verification</title>
+    <link rel="alternate" type="text/plain" href="/validation-key.txt">
+    <style>
+        body { font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background-color: #f4f4f9; color: #333; }
+        .container { text-align: center; padding: 20px; border-radius: 10px; background: white; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .key-link { color: #673ab7; font-weight: bold; text-decoration: none; border-bottom: 2px solid #673ab7; }
+    </style>
 </head>
 <body>
-    <h1>مرحباً بك في سوق إعلانات باي الموثق</h1>
-    <p>الموقع يعمل بنجاح وجاهز للربط.</p>
-    <p>لمشاهدة مفتاح التحقق، اذهب إلى: <a href="/validation-key.txt">validation-key.txt</a></p>
+    <div class="container">
+        <h1>سوق إعلانات باي الموثق</h1>
+        <p>الموقع نشط وجاهز للربط مع Pi Network.</p>
+        <p>مسار التوثيق الرسمي: 
+            <a class="key-link" href="/validation-key.txt">اضغط هنا لمعاينة مفتاح التحقق</a>
+        </p>
+    </div>
+
+    <script>
+        // كود برمجى للتأكد من أن السيرفر يستجيب لملف التوثيق
+        console.log("Checking validation key access...");
+        fetch('/validation-key.txt').then(response => {
+            if(response.ok) console.log("Validation key is accessible.");
+            else console.error("Validation key not found!");
+        });
+    </script>
 </body>
 </html>

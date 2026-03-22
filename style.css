@@ -1,0 +1,130 @@
+:root {
+    --main-gradient: linear-gradient(90deg, #a855f7 0%, #facc15 100%);
+    --bg-color: #fcfcfc;
+    --text-dark: #2d3436;
+    --purple: #8e44ad;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    margin: 0;
+    padding: 0;
+    color: var(--text-dark);
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.main-title {
+    background: var(--main-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.action-bar {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.search-container {
+    flex-grow: 1;
+    position: relative;
+}
+
+.search-container input {
+    width: 100%;
+    padding: 12px 40px 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    outline: none;
+}
+
+.search-container i {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+}
+
+.add-btn, .lang-btn {
+    background: var(--main-gradient);
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Promo Banner */
+.promo-banner {
+    background: var(--main-gradient);
+    margin: 20px;
+    border-radius: 20px;
+    padding: 25px;
+    color: white;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.book-now {
+    background: white;
+    color: var(--purple);
+    border: none;
+    padding: 10px 25px;
+    border-radius: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Product Card */
+.product-card {
+    background: white;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    overflow: hidden;
+}
+
+.product-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-info {
+    padding: 15px;
+}
+
+.pi-price {
+    font-size: 22px;
+    color: var(--purple);
+    font-weight: bold;
+}
+
+.buy-btn {
+    width: 100%;
+    background: var(--main-gradient);
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+    cursor: pointer;
+  }

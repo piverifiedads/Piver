@@ -1,1 +1,74 @@
-59a15951f520073db579a1427aa421e738f893ca33f984db3b3b67dd26d68886ccc3c6f7c93da2c24a08fc412b135ed379a2d5770b7d206fc97786be651dd532
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سوق إعلانات باي الموثق</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-top">
+            <i class="fas fa-chevron-down"></i>
+            <div class="logo-area">
+                <span>سوق إعلانات باي الموثق</span>
+                <img src="logo-placeholder.png" alt="logo" class="mini-logo">
+            </div>
+            <i class="fas fa-arrow-right"></i>
+        </div>
+        
+        <h1 class="main-title">سوق إعلانات<br>باي الموثق</h1>
+
+        <div class="action-bar">
+            <div class="search-container">
+                <input type="text" placeholder="ابحث عن منتجات...">
+                <i class="fas fa-search"></i>
+            </div>
+            <button class="add-btn"><i class="fas fa-plus"></i></button>
+            <button class="lang-btn"><i class="fas fa-language"></i></button>
+        </div>
+    </header>
+
+    <main class="content">
+        <section class="promo-banner">
+            <div class="promo-text">
+                <h3>مساحة إعلانية مميزة</h3>
+                <p>ضع إعلانك هنا للوصول لآلاف المستخدمين في مجتمع باي</p>
+                <button class="book-now">احجز مساحتك الآن</button>
+            </div>
+            <i class="fas fa-megaphone promo-icon"></i>
+        </section>
+
+        <div class="categories">
+            <button class="cat-item active">الكل</button>
+            <button class="cat-item">إلكترونيات وهواتف</button>
+            <button class="cat-item">عقارات</button>
+        </div>
+
+        <section class="products">
+            <div class="product-card">
+                <div class="badge">مميز</div>
+                <img src="iphone-placeholder.jpg" alt="iPhone" class="product-img">
+                <div class="product-info">
+                    <h4>iPhone 15 Pro Max</h4>
+                    <p class="desc">جهاز جديد بالكرتون، حالة ممتازة</p>
+                    <div class="price-box">
+                        <span class="gcv-verified">GCV Verified Price <i class="fas fa-check-circle"></i></span>
+                        <div class="pi-price">π 0.00382</div>
+                        <div class="usd-price">≈ $1,200.09</div>
+                    </div>
+                    <button class="buy-btn" onclick="handleBuy()">اشتري الآن بـ Pi</button>
+                    <div class="seller-info">
+                        <span>أحمد محمد</span>
+                        <span class="shield"><i class="fas fa-shield-alt"></i></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+          </html>
